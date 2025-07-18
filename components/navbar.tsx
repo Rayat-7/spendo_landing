@@ -59,10 +59,12 @@ export function Header() {
         <Button className="hidden md:inline-flex" variant="ghost">
           Log In
         </Button>
-        <Button className="hidden md:inline-flex bg-primary text-primary-foreground hover:bg-primary/90">
-          Get Started Today
-        </Button>
-        <DropdownMenu>
+        
+<Button className="hidden md:inline-flex bg-violet-600 text-white hover:bg-violet-700 relative overflow-hidden px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/25 hover:-translate-y-0.5 shiny-border-btn">
+  Get Started Today
+</Button>
+
+        {/* <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" size="icon">
               <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
@@ -75,7 +77,7 @@ export function Header() {
             <DropdownMenuItem onClick={() => setTheme("dark")}>Dark</DropdownMenuItem>
             <DropdownMenuItem onClick={() => setTheme("system")}>System</DropdownMenuItem>
           </DropdownMenuContent>
-        </DropdownMenu>
+        </DropdownMenu> */}
         <Sheet>
           <SheetTrigger asChild>
             <Button className="md:hidden bg-transparent" size="icon" variant="outline">

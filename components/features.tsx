@@ -83,7 +83,7 @@ export function FeaturesList() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             {heading.title}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             {heading.subtitle}
           </p>
         </div>
@@ -117,13 +117,13 @@ export function FeaturesList() {
                 <h3 className="text-2xl font-semibold text-foreground md:text-3xl">
                   {feature.title}
                 </h3>
-                <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
+                <p className="text-slate-400 text-base md:text-lg leading-relaxed">
                   {feature.description}
                 </p>
 
                 <ul className="flex flex-col gap-3 md:text-lg">
                   {feature.characteristics.map(char => (
-                    <li key={char.title} className="flex items-center gap-4 text-muted-foreground">
+                    <li key={char.title} className="flex items-center gap-4 text-slate-400">
                       <span className="flex size-6 items-center justify-center rounded-full bg-violet-100 dark:bg-violet-900/30">
                         <Check className="h-4 w-4 text-violet-600 dark:text-violet-300" />
                       </span>
