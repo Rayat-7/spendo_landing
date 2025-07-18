@@ -93,7 +93,7 @@ export function FeaturesList() {
           {features.map((feature, index) => (
             <article
               key={feature.title}
-              ref={el => (refs.current[index] = el as HTMLDivElement | null)}
+              ref={el => { refs.current[index] = el as HTMLDivElement | null }}
               className={`group flex flex-col md:flex-row items-center rounded-2xl border border-border bg-card p-2 transition-all duration-700 ease-out hover:border-violet-500 hover:shadow-lg hover:shadow-violet-500/20
                 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""}
               `}

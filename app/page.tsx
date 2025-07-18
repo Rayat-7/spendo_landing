@@ -13,11 +13,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       
-      <FeaturesList heading={{
-        subtitle: " Discover the Power of Spendo",
-        tag: " Features",
-        title: " Transform Your Financial Management",
-      }} features={[]}/>
+      <FeaturesList/>
       <SideFeatures/>
       <VioletPricing/>
       <SpeondoFinishSection/>
