@@ -103,8 +103,8 @@ export function Hero() {
         <div>
           <div className="mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-16 lg:px-24">
             <h1 className="!max-w-screen-lg text-pretty text-center text-[clamp(32px,7vw,64px)] font-medium leading-none tracking-[-1.44px] text-foreground md:tracking-[-2.16px]">
-  <AnimatedText text="Manage Your Expenses Like" /> 
-  <AnimatedText text=" Never Before" />
+  <AnimatedText text="Manage Your Expenses " /> 
+  <AnimatedText text=" Like Never Before" />
 </h1>
             {/* <h1 className="!max-w-screen-lg text-pretty text-center text-[clamp(32px,7vw,64px)] font-medium leading-none tracking-[-1.44px] text-foreground md:tracking-[-2.16px]">
               Manage Your Expenses Like Never Before

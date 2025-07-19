@@ -80,13 +80,13 @@ export function Header() {
         </DropdownMenu> */}
         <Sheet>
           <SheetTrigger asChild>
-            <Button className="md:hidden bg-transparent" size="icon" variant="outline">
+            <Button className="md:hidden bg-black" size="icon" variant="outline">
               <MenuIcon className="h-6 w-6" />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
           </SheetTrigger>
-          <SheetContent side="right">
-            <div className="flex flex-col gap-4 p-4">
+          <SheetContent className="bg-black" side="right">
+            <div className="flex flex-col gap-4 p-4 mt-10">
               <Link className="font-medium hover:text-primary transition-colors" href="#">
                 Features
               </Link>
@@ -99,8 +99,8 @@ export function Header() {
               <Link className="font-medium hover:text-primary transition-colors" href="#">
                 Changelog
               </Link>
-              <Button variant="ghost">Log In</Button>
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Get Started Today</Button>
+              <Button variant="outline">Log In</Button>
+              <Button className="bg-violet-600 text-primary-foreground hover:bg-primary/90">Get Started Today</Button>
             </div>
           </SheetContent>
         </Sheet>
